@@ -1,0 +1,10 @@
+# Data
+data/raw/*.csv
+data/processed/*
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+.env
