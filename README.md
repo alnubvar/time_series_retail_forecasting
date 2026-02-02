@@ -193,4 +193,4 @@ without complex statistical assumptions.
 Developed as part of a personal Machine Learning portfolio focused on applied, production-oriented ML systems.
 
 **Albert Nubaryan**
-📧 Email: [alnub_work@mail.ru](mailto:alnub_work@mail.ru)
+📧 Email: [alnubwork@gmail.com](mailto:alnubwork@gmail.com)
