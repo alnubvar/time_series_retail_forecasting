@@ -1,5 +1,9 @@
 # 📈 Retail Sales Time Series Forecasting & Anomaly Detection
 
+> **Business-focused time series case study**
+> Forecasting retail demand and detecting abnormal sales patterns
+> to support inventory planning and operational decision-making.
+
 End-to-end applied machine learning project focused on time series forecasting and anomaly detection using real-world retail sales data.
 
 ---
@@ -36,7 +40,10 @@ Build a robust forecasting model for daily retail sales and detect abnormal dema
 
 ## 🧠 Problem Formulation
 
-This project addresses two practical business tasks:
+These tasks reflect real-world retail needs:
+accurate demand planning and early detection
+of unusual demand behavior.
+
 
 1. **Demand forecasting**
    Predict future daily total sales based on historical patterns.
@@ -65,7 +72,7 @@ Two simple but informative baselines were implemented:
 | Model                | Description        |
 |----------------------|--------------------|
 | Naive (lag-1)        | Yesterday’s sales  |
-| Moving Average (7 д.)| Weekly smoothing   |
+| Moving Average (7 days) | Weekly smoothing   |
 
 **Baseline performance (test period):**
 - MAE ≈ 144k
@@ -101,7 +108,9 @@ Two simple but informative baselines were implemented:
 - RMSE ↓ ~27%
 - MAPE ↓ ~10 pp
 
-The model accurately captures trend and seasonality while remaining stable across time.
+The model was trained using a strictly time-based split
+to avoid data leakage and ensure realistic evaluation.
+
 
 ---
 
@@ -152,6 +161,17 @@ time_series_retail_forecasting/
 ├── README.md
 └── .gitignore
 ```
+
+---
+
+## ✅ Key Takeaway
+
+Tree-based ML models with lagged and rolling features
+provide a strong, interpretable baseline for retail demand forecasting,
+while residual analysis enables effective anomaly detection
+without complex statistical assumptions.
+
+---
 
 ## 🏁 Final Conclusions
 
